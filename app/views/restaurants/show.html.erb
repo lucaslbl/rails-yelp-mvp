@@ -1,0 +1,13 @@
+<div class="container">
+  <div class='restaurant_box mt-3'>
+    <h1><%= @restaurant.name %></h1>
+    <p>Address: <%= @restaurant.address%></p>
+    <p><%= @restaurant.phone_number %></p>
+    <p><%= @restaurant.category.capitalize %></p>
+  </div>
+  <hr>
+  <%= link_to 'Back to restaurants', restaurants_path %>
+</div>
+
+
+
